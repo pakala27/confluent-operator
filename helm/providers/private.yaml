@@ -202,3 +202,9 @@ controlcenter:
       property:
         admin: Developer1,Administrators
         disallowed: no_access
+
+# OpenShift generates a random UID for containers (recommended).
+PodSpod:
+ securityContextecurity:
+ randomUID: true
+
