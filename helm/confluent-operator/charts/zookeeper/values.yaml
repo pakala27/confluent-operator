@@ -1,6 +1,6 @@
 ## If false, zookeeper will not be installed
 ##
-enabled: true 
+enabled: false 
 ## Total replica count equals to the total node required to deploy pods
 ##
 replicas: 3
