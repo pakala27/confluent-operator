@@ -23,13 +23,13 @@ resources:
   ## Reference: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   requests:
     cpu: 200m
-    memory: 4Gi
+    memory: 2Gi
   limits: {}
 
 ## JVM configuration 
 ## 
 jvmConfig:
-  heapSize: 4G
+  heapSize: 1G
 
 ## Endpoint Configuration
 ##
