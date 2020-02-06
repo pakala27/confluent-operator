@@ -69,7 +69,7 @@ global:
     ## Only enable for OpenShift Platform if random UID is required to run container process.
     ## Follow Readme.md in scripts/openshift folder for more information.
     ## For Debian based CP images, enable will run the container process as root UID.
-    randomUID: false
+    randomUID: true
   ## 
   ## This is configured for inter-broker-configurations username/password. 
   ## All component and clients use these credentials to communicate with Kafka.
