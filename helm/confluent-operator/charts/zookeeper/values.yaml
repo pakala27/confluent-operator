@@ -3,7 +3,7 @@
 enabled: false 
 ## Total replica count equals to the total node required to deploy pods
 ##
-replicas: 3
+replicas: 1
 ##
 ##
 name: zookeeper
