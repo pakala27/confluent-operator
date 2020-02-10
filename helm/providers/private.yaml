@@ -19,7 +19,7 @@ global:
       ## Use Retain if you want to persist data after CP cluster has been uninstalled
       reclaimPolicy: Delete
       provisioner: kubernetes.io/Local
-      volumeBindingMode: WaitForFirstConsumer
+      # volumeBindingMode: WaitForFirstConsumer
       parameters: {}
     ##
     ## Docker registry endpoint where Confluent Images are available.
