@@ -18,7 +18,7 @@ global:
     storage:
       ## Use Retain if you want to persist data after CP cluster has been uninstalled
       reclaimPolicy: Delete
-      provisioner: kubernetes.io/no-provisioner
+      provisioner: kubernetes.io/Local
       volumeBindingMode: WaitForFirstConsumer
       parameters: {}
     ##
