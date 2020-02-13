@@ -32,7 +32,7 @@ spec:
     storage:
     {{- range $key, $value := .Values.volume }}
     - name: {{ $key }}
-      capacity: {{ $value }}
+      capacity: 1Gi
     {{- end }}
   {{- if or (or .Values.nodeAffinity .Values.rack) .Values.disableHostPort }}  
   placement:

@@ -21,7 +21,7 @@ global:
       provisioner: kubernetes.io/no-provisioner
       # volumeBindingMode: WaitForFirstConsumer
       parameters: {}
-    ##
+    ## 
     ## Docker registry endpoint where Confluent Images are available.
     ##
     registry:
