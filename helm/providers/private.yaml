@@ -36,7 +36,7 @@ global:
 ##
 zookeeper:
   name: zookeeper
-  replicas: 2
+  replicas: 1
   volume:
     data: 1Gi
     txnlog: 1Gi
