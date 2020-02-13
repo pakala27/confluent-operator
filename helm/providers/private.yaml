@@ -37,6 +37,9 @@ global:
 zookeeper:
   name: zookeeper
   replicas: 2
+  volume:
+    data: 1Gi
+    txnlog: 1Gi
   resources:
     requests:
       cpu: 200m
