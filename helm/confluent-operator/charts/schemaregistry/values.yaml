@@ -84,7 +84,7 @@ dependencies:
     bootstrapEndpoint: ""
     ## Broker initial count configuration
     ##
-    brokerCount: 3
+    brokerCount: 4
     
 ## Pod distribution on nodes with given key and values
 ## The node Affinity configuration uses preferredDuringSchedulingIgnoredDuringExecution

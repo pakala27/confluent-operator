@@ -124,7 +124,7 @@ schemaregistry:
     domain: ""
   dependencies:
     kafka:
-      brokerCount: 3
+      brokerCount: 4
       bootstrapEndpoint: kafka:9071
 
 ##
