@@ -38,7 +38,7 @@ zookeeper:
   name: zookeeper
   replicas: 3
   volume:
-    data: 1Gi
+    data: 2Gi
     txnlog: 1Gi
   resources:
     requests:
