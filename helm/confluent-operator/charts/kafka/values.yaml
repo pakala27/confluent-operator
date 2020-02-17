@@ -25,7 +25,7 @@ resources:
 ## Volume size
 ##
 volume:
-  data0: 1Gi
+  data0: 5Gi
 ## Options for turning Kafka features on/off
 ##
 options:
