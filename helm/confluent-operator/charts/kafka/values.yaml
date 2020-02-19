@@ -115,6 +115,7 @@ metricReporter:
 ##
 configOverrides:
   server: []
+  - auto.create.topics.enable=true
   jvm: []
 
 ## Pod distribution on nodes with given key and values
