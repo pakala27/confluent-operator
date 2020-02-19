@@ -147,7 +147,7 @@ ksql:
     kafka:
       brokerCount: 3
       bootstrapEndpoint: kafka:9071
-      brokerEndpoints: kafka-0.kafka:9071,kafka-1.kafka:9071,kafka-2.kafka:9071
+      brokerEndpoints: kafka-0.kafka:9071,kafka-1.kafka:9071,kafka-2.kafka:9071,kafka-3.kafka:9071
     schemaRegistry:
       enabled: false
       tls:
